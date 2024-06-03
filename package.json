@@ -4,9 +4,7 @@
     "@types/express": "^4.17.21",
     "@types/node": "^20.14.0",
     "nodemon": "^3.1.0",
-    "pkg": "^5.8.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "pkg": "^5.8.1"
   },
   "name": "back-end",
   "version": "1.0.0",
