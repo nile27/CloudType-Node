@@ -9,11 +9,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "localhost:3000",
+    origin: "http://localhost:3000",
     credentials: true,
   })
 );
-
+app.options("*", cors());
 app.use("/", require("./router/router.ts"));
 
 app.listen(4000, () => {
